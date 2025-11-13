@@ -1,0 +1,204 @@
+# DartsForum – Proyecto UT2
+
+DartsForum es una aplicación de consola desarrollada en C# cuyo objetivo es simular una pequeña plataforma para jugadores de dardos.  
+Permite consultar información sobre productos, lugares donde jugar, próximos eventos y algunos datos de usuarios y pedidos.
+
+---
+
+## 1. Tecnologías utilizadas
+
+- Lenguaje: C#
+- Tipo de aplicación: Aplicación de consola
+- Entorno recomendado:  
+  - SDK de .NET instalado (por ejemplo, .NET 6 o superior)
+  - Editor/IDE compatible (Visual Studio, Visual Studio Code, Rider, etc.)
+
+---
+
+## 2. Estructura general del programa
+
+El proyecto consta de una única clase principal:
+
+- **Program.cs**
+  - `Main(string[] args)`: punto de entrada de la aplicación. Llama al método `Init()`.
+  - `Init()`: gestiona el bucle principal del programa y el menú.
+  - Métodos auxiliares para:
+    - Mostrar el menú.
+    - Gestionar la “tienda”.
+    - Mostrar lugares por comunidad.
+    - Mostrar eventos, perfiles y pedidos.
+    - Simular acciones de usuario como inicio de sesión y creación de perfiles.
+
+Los datos (lugares, eventos, perfiles y pedidos) están almacenados en estructuras `ArrayList` que se construyen al inicio mediante funciones específicas como `BuildPlacesNavarra()`, `BuildEvents()`, etc.
+
+---
+
+## 3. Funcionalidades principales
+
+### 3.1. Menú principal
+
+El método `MenuPrincipal()` muestra las opciones disponibles:
+
+1. **Sobre nosotros**  
+2. **Iniciar sesión**  
+3. **Crear perfil**  
+4. **Ver productos**  
+5. **¿Dónde jugar?**  
+6. **Eventos próximos**  
+7. **Ver perfiles**  
+8. **Ver pedidos**  
+9. **Salir**
+
+La selección se gestiona desde `Init()`, que evalúa la opción introducida y llama al método correspondiente.
+
+---
+
+### 3.2. Sobre nosotros
+
+- Método: `AboutUs()`
+- Muestra una breve descripción del proyecto y del objetivo de DartsForum como comunidad de jugadores de dardos.
+
+---
+
+### 3.3. Inicio de sesión
+
+- Método: `Login()`
+- Solicita nombre de usuario y contraseña por consola.
+- Simula un inicio de sesión básico (no hay validación contra una base de datos).
+
+---
+
+### 3.4. Crear perfil
+
+- Método: `CreateUser()`
+- Pide varios datos al usuario (nombre completo, ciudad, edad, correo, teléfono, nombre de usuario).
+- Implementa un pequeño bucle para la creación de contraseña:
+  - Pide la contraseña dos veces.
+  - Si no coinciden, muestra un mensaje de error y vuelve a pedirlas.
+  - Si coinciden, muestra un mensaje de bienvenida.
+
+Los perfiles “oficiales” que se listan más adelante están definidos de forma fija en el método `BuildProfiles()`.
+
+---
+
+### 3.5. Sección de productos (tienda)
+
+- Método: `ShopInit()`
+- Muestra un submenú con categorías:
+
+  1. Dardos completos  
+  2. Plumas  
+  3. Cañas  
+  4. Barriletes  
+  5. Puntas  
+  6. Darderas  
+  7. Otros  
+  8. Listar todos los productos  
+  9. Volver al menú principal  
+
+- Cada categoría llama a un método que muestra una tabla formateada en consola, por ejemplo:
+  - `ShowAllDarts()`
+  - `ShowFlights()`
+  - `ShowCanes()`
+  - `ShowBarrels()`
+  - `ShowTips()`
+  - `ShowCases()`
+  - `ShowOthers()`
+- `ShowAllProducts()` llama a todos los métodos anteriores de forma consecutiva.
+
+Todos los productos están definidos de forma estática dentro del código y se muestran solo a modo de catálogo.
+
+---
+
+### 3.6. Dónde jugar
+
+- Método: `WhereToPlay()`
+- Muestra un listado de comunidades autónomas a partir del array `Comunities`.
+- El usuario elige una comunidad por número.
+- El programa valida que la entrada:
+  - Está formada únicamente por dígitos.
+  - Está dentro del rango de opciones permitido.
+- Según la selección, se llama a uno de los métodos:
+  - `ShowPlacesNavarra()`
+  - `ShowPlacesMadrid()`
+  - `ShowPlacesLaRioja()`
+  - `ShowPlacesAragon()`
+
+Cada uno de estos métodos muestra una tabla con los bares/salas de dardos de la comunidad, incluidos número, nombre, zona y horario.  
+Los datos se construyen previamente con métodos como `BuildPlacesNavarra()`, que usan `ArrayList` de `ArrayList` para simular filas de una tabla.
+
+---
+
+### 3.7. Eventos próximos
+
+- Método: `ShowEvents()`
+- Utiliza `ShowEventsTable(Events)` para mostrar una tabla de eventos.
+- Los eventos se crean en `BuildEvents()` y contienen:
+  - Número de evento
+  - Nombre
+  - Fecha
+  - Lugar
+
+---
+
+### 3.8. Perfiles registrados
+
+- Método: `ShowProfiles()`
+- Llama a `ShowProfilesTable(Profiles)`.
+- Los perfiles se construyen en `BuildProfiles()` con datos fijos (id, usuario, ciudad, edad).
+
+---
+
+### 3.9. Pedidos
+
+- Método: `ShowOrders()`
+- Llama a `ShowOrdersTable(Orders)`.
+- Los pedidos se definen en `BuildOrders()` y contienen:
+  - ID
+  - Usuario
+  - Referencia del producto
+  - Total del pedido
+
+---
+
+## 4. Estructuras de datos
+
+- **Array de cadenas**:
+  - `Comunities`: contiene el listado de comunidades autónomas disponibles.
+- **ArrayList**:
+  - `PlacesNavarra`, `PlacesMadrid`, `PlacesLaRioja`, `PlacesAragon`: listas de lugares para jugar en cada comunidad.
+  - `Events`: lista de eventos.
+  - `Profiles`: lista de perfiles.
+  - `Orders`: lista de pedidos.
+
+En todos los casos se usan `ArrayList` de `ArrayList` para representar tablas (cada fila es otra lista con las columnas correspondientes).
+
+---
+
+## 5. Cómo ejecutar el programa
+
+1. Abrir el proyecto en tu entorno de desarrollo (por ejemplo, Visual Studio o VS Code).
+2. Compilar el proyecto.
+3. Ejecutar la aplicación.
+4. Usar el teclado para introducir el número de la opción deseada en el menú principal.
+5. Seguir las instrucciones mostradas por consola en cada sección.
+
+---
+
+## 6. Posibles mejoras futuras
+
+Algunas posibles ampliaciones del proyecto podrían ser:
+
+- Sustituir `ArrayList` por colecciones genéricas (`List<T>`).
+- Implementar validaciones más avanzadas en el inicio de sesión y en la creación de perfiles.
+- Separar la lógica de negocio en varias clases para mejorar la organización del código.
+- Añadir persistencia de datos (por ejemplo, archivos o base de datos) para que los cambios se mantengan entre ejecuciones.
+
+---
+
+## 7. Autor
+
+Proyecto desarrollado para la UT2 de Programación:
+
+- **Autor**: Mario Furlan  
+- **Nombre del proyecto**: DartsForum
