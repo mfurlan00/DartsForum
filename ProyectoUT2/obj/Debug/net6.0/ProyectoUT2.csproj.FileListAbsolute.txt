@@ -1,0 +1,44 @@
+E:/IPRO/proyecto_ut2/ProyectoUT2/bin/Debug/net6.0/ProyectoUT2.exe
+E:/IPRO/proyecto_ut2/ProyectoUT2/bin/Debug/net6.0/ProyectoUT2.deps.json
+E:/IPRO/proyecto_ut2/ProyectoUT2/bin/Debug/net6.0/ProyectoUT2.runtimeconfig.json
+E:/IPRO/proyecto_ut2/ProyectoUT2/bin/Debug/net6.0/ProyectoUT2.dll
+E:/IPRO/proyecto_ut2/ProyectoUT2/bin/Debug/net6.0/ProyectoUT2.pdb
+E:/IPRO/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ProyectoUT2.csproj.AssemblyReference.cache
+E:/IPRO/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ProyectoUT2.GeneratedMSBuildEditorConfig.editorconfig
+E:/IPRO/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ProyectoUT2.AssemblyInfoInputs.cache
+E:/IPRO/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ProyectoUT2.AssemblyInfo.cs
+E:/IPRO/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ProyectoUT2.csproj.CoreCompileInputs.cache
+E:/IPRO/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ProyectoUT2.dll
+E:/IPRO/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/refint/ProyectoUT2.dll
+E:/IPRO/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ProyectoUT2.pdb
+E:/IPRO/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ProyectoUT2.genruntimeconfig.cache
+E:/IPRO/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ref/ProyectoUT2.dll
+/media/morty/VODKA BLYAT/IPRO/UT2/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ProyectoUT2.GeneratedMSBuildEditorConfig.editorconfig
+/media/morty/VODKA BLYAT/IPRO/UT2/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ProyectoUT2.AssemblyInfoInputs.cache
+/media/morty/VODKA BLYAT/IPRO/UT2/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ProyectoUT2.AssemblyInfo.cs
+/media/morty/VODKA BLYAT/IPRO/UT2/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ProyectoUT2.csproj.CoreCompileInputs.cache
+/media/morty/VODKA BLYAT/IPRO/UT2/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ProyectoUT2.dll
+/media/morty/VODKA BLYAT/IPRO/UT2/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/refint/ProyectoUT2.dll
+/media/morty/VODKA BLYAT/IPRO/UT2/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ProyectoUT2.pdb
+/media/morty/VODKA BLYAT/IPRO/UT2/proyecto_ut2/ProyectoUT2/bin/Debug/net6.0/ProyectoUT2
+/media/morty/VODKA BLYAT/IPRO/UT2/proyecto_ut2/ProyectoUT2/bin/Debug/net6.0/ProyectoUT2.deps.json
+/media/morty/VODKA BLYAT/IPRO/UT2/proyecto_ut2/ProyectoUT2/bin/Debug/net6.0/ProyectoUT2.runtimeconfig.json
+/media/morty/VODKA BLYAT/IPRO/UT2/proyecto_ut2/ProyectoUT2/bin/Debug/net6.0/ProyectoUT2.dll
+/media/morty/VODKA BLYAT/IPRO/UT2/proyecto_ut2/ProyectoUT2/bin/Debug/net6.0/ProyectoUT2.pdb
+/media/morty/VODKA BLYAT/IPRO/UT2/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ProyectoUT2.genruntimeconfig.cache
+/media/morty/VODKA BLYAT/IPRO/UT2/proyecto_ut2/ProyectoUT2/obj/Debug/net6.0/ref/ProyectoUT2.dll
+E:\IPRO\UT2\proyecto_ut2\ProyectoUT2\bin\Debug\net6.0\ProyectoUT2.exe
+E:\IPRO\UT2\proyecto_ut2\ProyectoUT2\bin\Debug\net6.0\ProyectoUT2.deps.json
+E:\IPRO\UT2\proyecto_ut2\ProyectoUT2\bin\Debug\net6.0\ProyectoUT2.runtimeconfig.json
+E:\IPRO\UT2\proyecto_ut2\ProyectoUT2\bin\Debug\net6.0\ProyectoUT2.dll
+E:\IPRO\UT2\proyecto_ut2\ProyectoUT2\bin\Debug\net6.0\ProyectoUT2.pdb
+E:\IPRO\UT2\proyecto_ut2\ProyectoUT2\obj\Debug\net6.0\ProyectoUT2.csproj.AssemblyReference.cache
+E:\IPRO\UT2\proyecto_ut2\ProyectoUT2\obj\Debug\net6.0\ProyectoUT2.GeneratedMSBuildEditorConfig.editorconfig
+E:\IPRO\UT2\proyecto_ut2\ProyectoUT2\obj\Debug\net6.0\ProyectoUT2.AssemblyInfoInputs.cache
+E:\IPRO\UT2\proyecto_ut2\ProyectoUT2\obj\Debug\net6.0\ProyectoUT2.AssemblyInfo.cs
+E:\IPRO\UT2\proyecto_ut2\ProyectoUT2\obj\Debug\net6.0\ProyectoUT2.csproj.CoreCompileInputs.cache
+E:\IPRO\UT2\proyecto_ut2\ProyectoUT2\obj\Debug\net6.0\ProyectoUT2.dll
+E:\IPRO\UT2\proyecto_ut2\ProyectoUT2\obj\Debug\net6.0\refint\ProyectoUT2.dll
+E:\IPRO\UT2\proyecto_ut2\ProyectoUT2\obj\Debug\net6.0\ProyectoUT2.pdb
+E:\IPRO\UT2\proyecto_ut2\ProyectoUT2\obj\Debug\net6.0\ProyectoUT2.genruntimeconfig.cache
+E:\IPRO\UT2\proyecto_ut2\ProyectoUT2\obj\Debug\net6.0\ref\ProyectoUT2.dll
